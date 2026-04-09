@@ -1,0 +1,9 @@
+pandas
+matplotlib
+seaborn
+openpyxl
+fastapi
+uvicorn
+streamlit
+plotly
+python-multipart
