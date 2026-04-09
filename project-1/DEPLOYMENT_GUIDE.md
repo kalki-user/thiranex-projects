@@ -10,14 +10,14 @@ This guide explains how to upload your project to GitHub and host it live on the
 Before uploading, we need to ensure we don't upload "junk" files (like temporary Python caches). 
 
 ### 1. Create a `.gitignore` file
-In your project root (`e:\Thiranex\`), create a file named `.gitignore` and add these lines:
+In your project root (`e:\Thiranex\project-1\`), create a file named `.gitignore` and add these lines:
 ```text
 __pycache__/
 .pytest_cache/
 .streamlit/
 *.pyc
 .env
-data/raw/*.csv
+raw/*.csv
 ```
 > [!NOTE]
 > We typically exclude large CSV files from GitHub. If your data file is under 25MB, you can include it. If it is larger, you should upload it to a Google Drive or S3 bucket and link it, or use **Git LFS**.

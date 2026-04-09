@@ -59,11 +59,28 @@ This project focuses on transforming a raw, messy dataset of over 540,000 transa
 ## 🛠️ Tech Stack
 - **Python 3.x**
 - **Pandas**: For heavy data manipulation.
-- **Matplotlib/Seaborn**: For professional-grade visualizations.
+- **Plotly**: For interactive, premium-grade visualizations.
+- **Streamlit**: For the executive intelligence dashboard.
 
 ---
 
 ## 📈 How to Run
-1. Ensure `requirements.txt` are installed.
-2. Run `python main.py`.
-3. The script will load the local `data/raw/online_retail_real.csv` and begin the transformation.
+
+### Local Execution (Manual)
+1. Open your terminal in the `project-1` directory.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Launch the Intelligence Dashboard:
+   ```bash
+   python -m streamlit run app.py
+   ```
+4. The dashboard will automatically open in your default browser at `http://localhost:8501`.
+
+### Data Requirements
+The system expects the raw transaction data to be located at:
+`project-1/raw/online_retail_real.csv`
+
+---
+*Created with Thiranex Intelligence Briefing V4.0 Stable*
